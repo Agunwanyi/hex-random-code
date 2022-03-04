@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+.box{
+    /* border: 1px solid black; */
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.colorMe{
+    border: 1px solid black;
+ /* background-color: #fe33fe; */
+ text-align: center;
+ padding: 2rem;
+}
+.colorMe h1{
+    font-size: 2rem;
+    animation: ChangeColor 5s infinite alternate;
+}
+@keyframes ChangeColor{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+      color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+    
+}
+.btn{
+    background-color: #00b6f1;
+    color: #ffffff;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+}
